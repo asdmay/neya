@@ -4,28 +4,18 @@
     <meta charset="UTF-8">
     <title></title>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="js/neya.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/neya.css"/>
   </head>
   <body>
-    <div class ="fukidashi">
-      <img = src ="img/fukidashi_sky.png" alt="">
-    </div>
+    - <div class ="fukidashi">
+	  <img = src ="img/fukidashi_sky.png" alt="">
+	  </div> -->
     <form name ="speech">
       <input type="text" name="speech_text" value= "" onChange ="kansai()"><br>
     </form>
     <p id ="show_speech"></p>
     
-    <script>
-     function kansai(){
-       var s = document.speech.speech_text.value;
-       var result = s.replace( /んです/g , "ねやー" );
-       var sampleNode=document.getElementById("show_speech");
-       sampleNode.innerHTML=result;
-     }
-
-     function clearForm(){
-	document.speech.speech_text.value = "";
-     }
-
-    </script>
+   
   </body>
 </html>

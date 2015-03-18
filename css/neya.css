@@ -15,21 +15,26 @@ div.tokyo {
     height: 50%;
 }
 		
-div.tokyo_fukidashi {
-    width: 50%;
-    position: relative;
-    float: left;
-}
 
 div.tokyo_char {
     width: 50%;
     float: left;
 }
 
+div.input_speech {
+    width: 50%;
+    float: left;
+}
+
+div.tokyo_fukidashi {
+    width: 100%;
+    position:relative;
+}
+
 div.tokyo_speech {
     width: 50%;
-    position: absolute;
-    float:right;
+    position:absolute;
+    top:15%;
 }
 
 
@@ -37,17 +42,27 @@ div.osaka {
     width: 100%;
     height: 50%;
 }
-/* div.osaka_fukidshi { */
-/*     width: 50%; */
-/* } */
-
-div.osaka_speech {
-    width: 50%;
-    height: auto;
-}
 
 div.osaka_char {
     width: 50%;
-    height: auto;
+    height: 100%;
+    float: right;
 }
+
+div.output_speech {
+    width: 50%;
+    float: right;
+}
+
+div.osaka_fukidshi {
+    width: 100%;
+    position:relative;
+}
+
+div.osaka_speech {
+    width: 50%;
+    position: absolute;
+    bottom: 25%;
+}
+
 
